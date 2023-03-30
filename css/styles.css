@@ -191,8 +191,7 @@ body {
 
 /* -------Hero------ */
 .hero {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0px;
   background-color: var(--secondary-main-color);
   background-size: cover;
   background-position: center;
@@ -263,8 +262,6 @@ body {
 
 .team {
   background-color: var(--team-bg-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .section-title {
@@ -460,6 +457,9 @@ body {
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
   transition: box-shadow var(--animation-timing-function);
+  border-left: 1px solid var(--footer-subtitle-color);
+  border-right: 1px solid var(--footer-subtitle-color);
+  border-bottom: 1px solid var(--footer-subtitle-color);
 }
 .portfolio-item:hover,
 .portfolio-item:focus {
@@ -491,9 +491,6 @@ body {
 
 .portfolio-card-container {
   padding: 32px 16px;
-  border-left: 1px solid var(--footer-subtitle-color);
-  border-right: 1px solid var(--footer-subtitle-color);
-  border-bottom: 1px solid var(--footer-subtitle-color);
 }
 
 .button {
